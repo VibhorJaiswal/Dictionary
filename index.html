@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Dictionary</title>
+    <script src="./Sketch.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+        <h1 class="wel">Hi! Dictionary This Side.....</h1>
+    <input id="word" class="word" type="text" placeholder="Enter Word">
+    <button type="button" onclick="search()" class="btn btn-primary button">
+        <h1>Search</h1>
+    </button>
+    <div id="list">
+        <h1 id="hide">Meaning -</h1>
+        <h5 id="ans"></h5>
+        <div id="loader" class="loader" style="visibility:hidden; margin-left: 45%;"></div>
+    </div>
+
+</body>
+
+</html>
