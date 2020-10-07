@@ -38,7 +38,7 @@ function search() {
 
     xhr.open("GET", `https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=${word}`);
     xhr.setRequestHeader("x-rapidapi-host", "mashape-community-urban-dictionary.p.rapidapi.com");
-    xhr.setRequestHeader("x-rapidapi-key", "12de581810msh5acb50acb1a78abp139e15jsn6654d0556193");
+    xhr.setRequestHeader("x-rapidapi-key", "YOUR_KEY_HERE");
 
     xhr.send(data);
 
